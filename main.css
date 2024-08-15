@@ -169,6 +169,10 @@ a:focus-visible {
     width: 280px;
     height: 40px;
   }
+
+  .section__card__links:last-child {
+    margin-bottom: var(--S300-24PX);
+  }
 }
 
 /* Media Query for Phones (375px wide) */
@@ -196,5 +200,9 @@ a:focus-visible {
   .section__card__links__button {
     width: 240px;
     height: 35px;
+  }
+
+  .section__card__links:last-child {
+    margin-bottom: var(--S300-24PX);
   }
 }
